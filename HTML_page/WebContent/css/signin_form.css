@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+/* section 시작 */
+
+
+
+section {
+	max-width: 100%;
+	min-width: 1060px;
+	width: auto;
+	height: 1100px;
+	overflow: hidden;
+}
+
+#login_section {
+	width: 1060px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 52px;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+
+#login_title {
+	width: 100%;
+	height: 180px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color: white;
+	border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+#login_logo {
+	width: 199px;
+	height: 41px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+#login_logo > img{
+	width: 100%;
+}
+
+#login_text {
+	width: 199px;
+	height: 41px;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#login_text > p {
+	color: rgba(51, 195, 223, 0.7);
+	font-size: 13.5px;
+	font-weight: bolder;
+}
+
+#agree_title {
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	padding-left: 80px;
+	padding-bottom: 40px;
+}
+
+#agree_title > p {
+	color: rgb(51,195,223);
+	font-size: 30px;	
+}
+
+.agree_box {
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#title {
+	width: 100%;
+	height: 20px;
+	padding-bottom: 3px;
+}
+
+#title > p {
+	font-size: 15px;
+	color: rgb(51,195,223);
+}
+
+#text_box {
+	width: 100%;
+	height: 142px;
+	padding-top: 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+#text_box > textarea {
+	width: 870px;
+	height: 120px;
+	background-color: rgb(245,246,248);
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+#check_box {
+	width: 100%;
+	height: 20px;
+	margin-top: 6px;
+}
+
+#check_box > input {
+	margin-right: 10px; 
+	float: left;
+}
+
+#check_box > p {
+	font-size: 14px;
+	color: #707070;
+}
+
+#gap {
+	width: 100%;
+	height: 50px;
+}
+
+#button_area {
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+}
+
+#button_box_area {
+	width: 250px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#button_box_area > button {
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: bolder;
+	text-shadow: 0px -1px 1px rgba(0,0,0,.3);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29);
+}
+
+#agree {
+	width: 75px;
+	height: 100%;
+	background-color: rgb(51,195,223);
+	border: 2px solid rgba(51, 195, 223, 0.8);
+	color: white;
+}
+
+#disagree {
+	width: 170px;
+	height: 100%;
+	background-color: rgb(74,74,74);
+	border: 2px solid rgba(74,74,74, 0.8);
+	color: white;
+	float: right;
+}
+
+
+
+/* section 끝 */

@@ -1,0 +1,305 @@
+@CHARSET "UTF-8";
+
+/* section 시작 */
+
+
+#electronic_section {
+	width: 1060px;
+	height: 5800px;
+	margin: 0 auto;
+	margin-top: 52px;
+	margin-bottom: 70px;
+/*  	background-color: gray;
+	border:  3px solid red; */
+	overflow: hidden;
+}
+
+/* top section 시작 */
+
+#top_background {
+	width: 1060px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#top_background > img{
+	width: 100%;
+}
+
+#top_logo_container {
+	width: 300px;
+	height: 400px;
+	margin-left: 90px;
+	position: absolute;
+}
+
+#top_logo {
+	width: 100%;
+	height: 108px;
+	margin-top: 60px;
+}
+
+#top_logo > img {
+	width: 100%;
+}
+
+/* top section 종료 */
+
+/* main section 시작 */
+
+#main_section {
+	width: 880px;
+	height: 5400px;
+/*  	background-color: green; */
+	margin: 0 auto;
+}
+
+.section_title {
+	width: 100%;
+	height: 30px;
+	padding-top: 30px;
+}
+
+/* ioniq 소개 */
+#ioniq_img {
+	width: 85px;
+	height: 100%;
+}
+
+#ioniq_img > img {
+	width: 100%;
+}
+
+#ioniq_img_1 {
+	width: 100%;
+	height: 781px;
+	border-bottom: 1px solid #666666;
+}
+
+#ioniq_img_1 > img {
+	width: 100%;
+}
+
+
+/* elec 소개 */
+#elec_img {
+	width: 243px;
+	height: 100%;
+}
+
+#elec_img > img {
+	width: 100%;
+}
+
+#elec_img_1 {
+	width: 100%;
+	height: 194px;
+}
+
+#elec_img_1 > img {
+	width: 100%;
+}
+
+#elec_img_2 {
+	width: 100%;
+	height: 560px;
+}
+
+#elec_img_2 > img {
+	width: 100%;
+}
+
+#elec_img_3 {
+	width: 100%;
+	height: 420px;
+	border-bottom: 1px solid #666666;
+}
+
+#elec_img_3 > img {
+	width: 100%;
+}
+
+
+/* drive 소개 */
+#drive_img {
+	width: 126px;
+	height: 100%;
+}
+
+#drive_img > img {
+	width: 100%;
+}
+
+#drive_img_1 {
+	width: 100%;
+	height: 607px;
+}
+
+#drive_img_1 > img {
+	width: 100%;
+}
+
+#drive_tab {
+	width: 100%;
+	height: 345px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+	overflow: hidden;
+}
+
+#drive_tab > div {
+	width: 205px;
+	height: 100%;
+	margin-left: 12px;
+	padding-bottom: 40px;
+	float: left;
+}
+
+.d_image {
+	width: 100%;
+	height: 130px;
+}
+
+.d_text {
+	width: 180px;
+	height: 200px;
+	margin-top: 17px;
+	padding-right: 25px;
+}
+
+.p1 {
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #555;
+	font-weight: bold;
+}
+
+.p2 {
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #555;
+}
+
+
+
+
+
+/* 기술 소개 */
+#tech_img {
+	width: 214px;
+	height: 100%;
+}
+
+#tech_img > img {
+	width: 100%;
+}
+
+#tech_img_1 {
+	width: 100%;
+	height: 607px;
+}
+
+#tech_img_1 > img {
+	width: 100%;
+}
+
+#tech_tab {
+	width: 100%;
+	height: 345px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+	overflow: hidden;
+}
+
+#tech_tab > div {
+	width: 205px;
+	height: 100%;
+	margin-left: 12px;
+	padding-bottom: 40px;
+	float: left;
+}
+
+
+
+/* 소개영상 */
+#introduce_img {
+	width: 116px;
+	height: 100%;
+}
+
+#introduce_img > img {
+	width: 100%;
+}
+
+#introduce_video {
+	width: 100%;
+	height: 480px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+}
+
+
+/* 제원 */
+#spec_img {
+	width: 55px;
+	height: 100%;
+}
+
+#spec_img > img {
+	width: 100%;
+}
+
+#spec_img_1 {
+	width: 100%;
+	height: 305px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#spec_img_1 > img {
+	width: 100%;
+}
+
+#spec_table {
+	width: 100%;
+	height: 130px;
+}
+
+#spec_table > table{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 8.3pt;
+	color: #707070;
+	border: 2px solid rgb(228,228,228);
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+
+.tr_1 {
+	background-color: rgb(245,246,248);
+}
+
+
+.td_1 {
+	border-right: 2px solid rgb(240,240,240);
+}
+
+#tr_sub {
+	border: 2px solid gray;
+	background-color: rgb(112,118,131);
+	color: white;
+}
+
+#tr_sub > td {
+	border-bottom: 2px solid rgb(228,228,228);
+}
+
+
+/* main section 종료 */
+
+/* section 끝 */
